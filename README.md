@@ -17,10 +17,10 @@ var/www/
 │   └── flag.txt
 ```
 
-How trigger the File Inclusion & Path Traversal vulnerability
+How to trigger the File Inclusion & Path Traversal vulnerability
 
 ```
 http://localhost:8080/?page=../secrets/flag.txt
 ```
 
-Attacker can read the file outside html directory.
+Attackers can read files even those outside the html directory.
